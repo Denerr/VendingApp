@@ -18,6 +18,8 @@ namespace VendingApp
             defineVal();
         }
 
+        string path = "C:/Arquivos Pessoais/DEV/C#/VendingApp/Planilha/Vendas.xlsx";
+
         private void defineVal()
         {
             txtQuantidade.Text = "0";
@@ -73,6 +75,7 @@ namespace VendingApp
 
                 if (resul == DialogResult.Yes)
                 {
+                    
                     MessageBox.Show("Venda Cadastrada!");
                     this.Close();
                 }
